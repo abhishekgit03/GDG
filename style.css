@@ -12,10 +12,9 @@
     display: flex;
     display:flex;
     top:0;
-    margin-bottom: 10px;
     width:100%;
     padding: 10px 10px;
-    box-shadow: 3px 3px 5px 6px #ccc;
+   border-bottom: 1px solid grey;
 
 }
 .name
@@ -61,17 +60,20 @@
 }
 .location
 {
-    border-radius: 25px;
-    border: 2px solid black;
-    padding: 20px; 
+    max-width:fit-content;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 30px; 
     padding: 10px;
 }
 .box1img{
     width:50%;
     height: 50%;
 }
+/* Insights box starts */
 .Insights
 {
+    padding:10px 10px;
     background-color:#e8eaed;
 }
 .Insights h1{
@@ -89,5 +91,36 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+/* Insights box ends */
+
+/*Activity box starts */
+.Activity
+{
+    padding:10px 10px;
+}
+.activity-container
+{
+    text-align: center;
+}
+.activity-container h2
+{
+    color: #202124;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.activity-container p
+{
+    max-width:200px;
+    text-align: center;
+}
+
+.activity-container-box
+{
+    padding:30px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*Activity box ends */
 
 
